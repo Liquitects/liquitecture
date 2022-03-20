@@ -38,7 +38,7 @@
       <img class="info__container__image" src="./build/info_icon.svg" alt="Icon showing that more information is availible.">
     </button>
     <div class="instructions__container">
-      <div class="instructions__containerr__text">
+      <div class="instructions__container__text">
         <ul>
           <li>movement: WSAD or arrow keys</li>
           <li>exit game: Esc or click anywhere</li>
@@ -46,7 +46,16 @@
       </div>
     </div>
     <div class="instructions__container">
-        <button id="start__button" class="button" onclick="toggleLock()">Play</button>
+        <button id="start__button" class="button">Play</button>
+    </div>
+    <div class="debug__container">
+      <div class="instructions__container__text">
+        <ul>
+          <li>X: <span id="debug__x"></span></li>
+          <li>Y: <span id="debug__y"></span></li>
+          <li>Z: <span id="debug__z"></span></li>
+        </ul>
+      </div>
     </div>
   </div>
 

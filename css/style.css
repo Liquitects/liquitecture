@@ -151,7 +151,7 @@
   background-color: #80808040;
 }
 
-.instructions__container {
+.instructions__container, .debug__container {
   border: none;
   width: calc(12vh + 12vw);
   height: calc(6vh + 6vw);
@@ -208,7 +208,7 @@
   display: none;
 }
 
-.instructions__containerr__text {
+.instructions__container__text {
   padding: calc(0.3vh + 0.3vw);
   font-size: calc(0.6vh + 0.6vw);
   font-family: "Poppins-Medium", sans-serif;

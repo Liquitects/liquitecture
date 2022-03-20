@@ -159,6 +159,10 @@ function animate() {
 
 		controls.moveRight( - velocity.x * delta );
 		controls.moveForward( - velocity.z * delta );
+
+		document.getElementById("debug__x").textContent=Math.round(camera.position.x * 100) / 100;
+		document.getElementById("debug__y").textContent=Math.round(camera.position.y * 100) / 100;
+		document.getElementById("debug__z").textContent=Math.round(camera.position.z * 100) / 100;
 	}
 	prevTime = time;
 	renderer.render( scene, camera );
